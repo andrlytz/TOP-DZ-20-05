@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <fieldset class="container">
+        <legend>Калькулятор расчета стоимости фундаментной плиты для загородного дома</legend>
+        <label>
+            <p>Введите площадь фундаментной плиты, м:<sup>2</sup></p>
+            <input type="number" id="inp1" placeholder="Введите значение">
+        </label>
+        <label>
+            <p>Ведите высоту фундаментной плиты, м:</p>
+            <input type="number" id="inp2" placeholder="Введите значение">
+        </label>
+        <label>
+            <p>Введите стоимость за 1 м<sup>2</sup>:</p>
+            <input type="number" id="inp3" placeholder="Введите цену">
+        </label>
+        <h3 id="out1" class="out"></h3>
+        <button id="but1">Посчитать</button>
+    </fieldset>
+    <fieldset class="container">
+        <legend>Расчет сметы на покупку какой-то доски</legend>
+        <h4>Цена одной доски: 1500 рублей</h4>
+        <p>АКЦИЯ!!! Только сегодня и только сейчас: <br>Если покупаете от 100 штук, то получите скидку 5% <br>Если покупаете от 200 штук, то получите скидку 10% <br>Если покупаете от 300 штук, то получите скидку 20% <br>
+        </p>
+        <label>
+            <p>Количество досок для покупки:</p>
+            <input type="number" id="inp4" placeholder="Сколько досок берете?">
+        </label>
+        <h3 id="out2" class="out"></h3>
+        <button id="but2">Посчитать</button>
+    </fieldset>
+</body>
+</html>
